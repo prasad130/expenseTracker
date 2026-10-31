@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Expense Tracker</h2>
+
+    <div class="form">
+        <input type="hidden" id="expenseId">
+
+        <input type="text" id="title" placeholder="Title">
+        <input type="number" id="amount" placeholder="Amount">
+        <input type="text" id="category" placeholder="Category">
+        <input type="date" id="date">
+
+        <button onclick="saveExpense()">Save</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Title</th>
+                <th>Amount</th>
+                <th>Category</th>
+                <th>Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="expenseTable"></tbody>
+    </table>
+    <h3 id="totalExpense" style="text-align:right; margin-top:15px;">
+        Total: 0
+    </h3>
+</div>
+<script src="js/script.js?v=10"></script>
+</body>
+</html>
