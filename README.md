@@ -54,18 +54,10 @@ MySQL
 Application URL:
 http://localhost:8080
 
-## 7. Screenshots
-
-Add screenshots of:
-
-* Expense Dashboard
-* Add Expense Page
-* Expense Chart
-
-## 8. GitHub Repository
+## 7. GitHub Repository
 
 https://github.com/prasad130/expenseTracker
 
-## 9. Author
+## 8. Author
 
 Challa Penchala Prasad
